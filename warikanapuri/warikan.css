@@ -1,0 +1,110 @@
+/*お会計入力欄*/
+.kaikei_class{
+  margin-top:20px;
+ height:2em;
+ width:250px;
+ border:solid 4px #3cb371;
+ color:#4b0082;
+ font-size:30px;
+ text-align:center;
+ -webkit-border-radius:50px;
+ background:#f8f8ff;
+ -webkit-transition:0.4s;
+}
+.kaikei_class:focus{
+  border:solid 4px #29ABE2;
+  width:420px;
+  font-size:52px;
+  background:#f8f8ff;
+  outline:none;
+}
+/*人数入力欄*/
+.ninzu_class{
+  height:1.5em;
+  width:80px;
+  border:solid 4px #3cb371;
+  color:#4b0082;
+  font-size:25px;
+  text-align:center;
+  -webkit-border-radius:50px;
+  background:#f8f8ff;
+  -webkit-transition:0.4s;
+}
+.ninzu_class:focus{
+  border:solid 4px #29ABE2;
+  width:140px;
+  font-size:40px;
+  background:#f8f8ff;
+  outline:none;
+}
+/*計算ボタン*/
+.keisan_class{
+  height:60px;
+  width:210px;
+  -webkit-border-radius:50px;
+  color:#ffff00;
+  font-size:15px;
+  font-weight:bold;
+  background:#3cb371;
+  outline:none;
+}
+/*文字フォント*/
+.text_1{
+  font-size:30px;
+  font-weight:bolder;
+	color: #ffff00;
+	letter-spacing: 0;
+	text-shadow: 0px 1px 0px #999,
+		 0px 2px 0px #888,
+		 0px 3px 0px #777,
+		 0px 4px 0px #666,
+		 0px 5px 0px #555,
+		 0px 6px 0px #444,
+		 0px 7px 0px #333,
+		 0px 8px 7px #001135
+}
+.text_2{
+  font-size:30px;
+  font-weight:bolder;
+	color: #ffff00;
+	letter-spacing: 0;
+	text-shadow: 0px 1px 0px #999,
+		 0px 2px 0px #888,
+		 0px 3px 0px #777,
+		 0px 4px 0px #666,
+		 0px 5px 0px #555,
+		 0px 6px 0px #444,
+		 0px 7px 0px #333,
+		 0px 8px 7px #001135
+}
+.text_3{
+  font-size:30px;
+  font-weight:bolder;
+	color: #ffff00;
+	letter-spacing: 0;
+	text-shadow: 0px 1px 0px #999,
+		 0px 2px 0px #888,
+		 0px 3px 0px #777,
+		 0px 4px 0px #666,
+		 0px 5px 0px #555,
+		 0px 6px 0px #444,
+		 0px 7px 0px #333,
+		 0px 8px 7px #001135
+}
+/*ヘッダーの設定*/
+*{
+  margin:0;
+  padding:0;
+}
+header{
+  background:#fff3b8;
+}
+h1{
+  font-size:50px;
+  color:#ffff00;
+  text-shadow: 0 0 20px #000000;
+}
+
+body{
+  text-align:center;
+}
